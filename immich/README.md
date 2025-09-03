@@ -1,5 +1,5 @@
 # Image backup
-I chose Immich for my image backup solution as it offers a familiar interface similar to the Google Photos one. At the moment, it is one of the two services that I have exposed to the internet. As an additional layer of security, I chose to use [Google OAuth 2.0](https://console.cloud.google.com/auth/overview). The steps to set it up are as follows:
+I chose Immich for my image backup solution as it offers a familiar interface similar to the Google Photos one. ~~At the moment, it is one of the two services that I have exposed to the internet.~~ As an additional layer of security, I chose to use [Google OAuth 2.0](https://console.cloud.google.com/auth/overview). The steps to set it up are as follows:
 
 1. Create an OAuth app inside Google;
 2. Create a new client with the following redirect URIs; ![config1](../images/oauth-redirects.png)

@@ -1,10 +1,4 @@
 services:
-  cloudflare-ddns:
-    image: oznu/cloudflare-ddns
-    container_name: cloudflare-ddns
-    restart: unless-stopped
-    env_file:
-      - .env
   npm:
     image: 'jc21/nginx-proxy-manager:latest'
     restart: unless-stopped
